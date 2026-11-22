@@ -1,0 +1,38 @@
+{
+  "description": "Parameters of the Cosserat rod model of the soft pneumatic actuator, as used for the simulation of the PINN training data and for all experiments. Diagonals of the compliance matrix C [shear x, shear y, dilatation, bending x, bending y, torsion], the damping matrix D (in s) and the cross-sectional mass matrix M (in kg/m and kg m); M_tip is the tip mass as additional line density between the last two nodes (kg/m). Identified (T-RO, Table II): ref_length, tip mass, C[3] (bending compliance), C[2] (dilatation compliance), D[3] (bending damping); see README.",
+  "ref_length": 0.12491279970622066,
+  "radius": 0.02115,
+  "compression_gain": 1.5971795499442845,
+  "C": [
+    0.017789731468000756,
+    0.017789731468000756,
+    0.005913220481626584,
+    49.928529014508435,
+    49.928529014508435,
+    79.53872862644184
+  ],
+  "D": [
+    0.06,
+    0.06,
+    0.13463048715778367,
+    0.005,
+    0.005,
+    0.010200572056590706
+  ],
+  "M": [
+    1.000315151431242,
+    1.000315151431242,
+    1.000315151431242,
+    0.0001118658685815254,
+    0.0001118658685815254,
+    0.0002237317371630508
+  ],
+  "M_tip": 3.20700898741003,
+  "p0": 100000.0,
+  "chamber_radius": 0.012,
+  "gravity": [
+    0.0,
+    0.0,
+    9.81
+  ]
+}

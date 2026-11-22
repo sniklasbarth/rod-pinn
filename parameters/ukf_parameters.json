@@ -1,0 +1,13 @@
+{
+  "description": "UKF parameters for position measurements at 70 Hz (Exp. 3, Exp. 4). sigma_* are the process noise and initial standard deviations of the state groups, sigma_bending_compliance the process noise of the estimated bending compliance, R_position the measurement noise variance of the end-effector position.",
+  "sigma_velocity": 4.945524747153008e-06,
+  "sigma_angular_velocity": 8.379016370802031e-06,
+  "sigma_force": 0.0012595672857337798,
+  "sigma_force_z": 0.0038306208457787555,
+  "sigma_moment": 2.0311225920736882e-08,
+  "sigma_bending_compliance": 1.684005609375711e-05,
+  "R_position": 2.5916542322993863e-10,
+  "alpha": 0.7351320795810677,
+  "beta": 2.9999086290293473,
+  "kappa": 19.92389419302896
+}

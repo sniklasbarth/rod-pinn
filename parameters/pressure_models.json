@@ -1,0 +1,21 @@
+{
+  "description": "First-order models of the pressure controllers, continuous time, G(s) = num/den. 'identified' filters the plant input in Exp. 4 (T-RO: G_p(s) = 11/(s+10.94)). 'nempc' is the model the NEMPC predicts with in Exp. 4; with the identified model in the NEMPC the published result is not reached (see README).",
+  "identified": {
+    "num": [
+      11.003653787421039
+    ],
+    "den": [
+      1.0,
+      10.944041319307523
+    ]
+  },
+  "nempc": {
+    "num": [
+      14.0
+    ],
+    "den": [
+      1.0,
+      14.0
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "NEMPC parameters for Exp. 4. Q_weights are the state weights per state group (PINNMPC.calcQ). Input limits are absolute pressures in bar.",
+  "horizon": 5,
+  "numSims": 1000,
+  "R_factor": 2.3936035724652736,
+  "parentQuota": 0.3896960480608245,
+  "strangerQuota": 0.10099661929295092,
+  "numSegments": 2,
+  "mutation_noise_factor": 0.036560152011511554,
+  "mutation_probability": 0.1445666170411289,
+  "mutationNoise_init": 0.2,
+  "mutation_noise_min": 0.05,
+  "mutation_noise_max": 0.5,
+  "fix_first_knot": false,
+  "u_min_bar": 0.99,
+  "u_max_bar": 2.1,
+  "Q_weights": {
+    "vel": 0.05430133919419249,
+    "angvel": 0.32249504963724807,
+    "force": 1.1839855648237632,
+    "forceZ": 8.434178032753984,
+    "moment": 0.05830723020353472
+  }
+}

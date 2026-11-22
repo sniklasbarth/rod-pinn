@@ -1,0 +1,9 @@
+results/
+.venv
+__pycache__/
+*.asv
+.DS_Store
+*.mexmaca64
+*.mexmaci64
+*.mexw64
+*.mexa64

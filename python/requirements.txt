@@ -1,0 +1,6 @@
+# Python 3.9-3.12 (MATLAB R2024b pyenv); versions used for the published results
+torch==2.5.1
+numpy==1.26.4
+scipy==1.14.1
+matplotlib==3.9.3
+pandas==2.2.2
